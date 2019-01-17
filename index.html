@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Timer Application in JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/design.css">
+    </head>
+    <body>
+        <main>
+            <div id='showTimer' class="letter-spacing-0 mb-3">
+                <h1 id="timer">00 : 00 . 000</h1>
+            </div>
+
+            <div>
+                <ul id="bestTime">
+                </ul>
+                <button onclick="resetTimes(bestTimeList)">Inhalt löschen</button>
+            </div>
+        </main>
+        
+        <script src="/js/controller/timerController.js"></script>
+        <script src="/js/timerView.js"></script>
+    </body>
+</html>

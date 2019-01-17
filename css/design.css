@@ -1,0 +1,32 @@
+/*########################
+#####	Allgemeine HTML Elemente
+##########################*/
+body {background: #000;height: 100%; width: 100%; margin: 0;}
+
+
+/*####  Button Design	####*/
+button {background: #000;color: #fff;padding: 10px 30px;border: 2px solid #fff;border-radius: 50px;font-size: 15px;cursor: pointer;}
+    button:focus {outline: 0;}
+    button:active {border-color: rgb(31, 245, 209); color: rgb(31, 245, 209);}
+
+/*########################
+#####	zusammengefasste Klassen
+##########################*/
+#bestTime, #timer
+{color: #fff}
+
+body
+{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/*########################
+#####	Timer
+##########################*/
+
+#timer {font-size: 3rem;}
+
+#bestTime{list-style: none;}
+    #bestTime li{font-size: 22px;}
+
+/*####	Ausrichtung des Timers	####*/
+main {padding: 40vh;text-align: center;display: flex;}
+main div {width: 50%;}
